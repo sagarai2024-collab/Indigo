@@ -51,9 +51,6 @@ https://localhost:5001/signin-google (Backend)
 Go to /backend folder.
 
 Update appsettings.json with Google Client ID, Secret, and DB connection string.
-
-Example:
-
 "GoogleAuthSettings": {
   "ClientId": "YOUR_GOOGLE_CLIENT_ID",
   "ClientSecret": "YOUR_GOOGLE_CLIENT_SECRET",
