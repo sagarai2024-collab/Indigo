@@ -1,2 +1,1 @@
-# Indigo
-Become Our partner
+# See docs folder for HLD/LLD and architecture diagram.
