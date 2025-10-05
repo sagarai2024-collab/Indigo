@@ -1,19 +1,19 @@
-🚀 Overview      ------  Created by Sagarika...........
+Overview      ------  Created by Sagarika...........
 
 This project is a Single Page Web Application (SPA) developed using React.js and .NET Core Web API that integrates Google APIs for authentication and data access.
 It demonstrates enterprise-level design — with secure OAuth 2.0 login, RESTful communication, and clean separation between frontend and backend layers.
 
-🧠 Key Features
+ Key Features
 
-🔐 Google OAuth 2.0 Authentication — secure user login using Google credentials.
+** Google OAuth 2.0 Authentication — secure user login using Google credentials.
 
-🗂 Google Drive API Integration — list, view, and download user files.
+** Google Drive API Integration — list, view, and download user files.
 
-⚡ Single Page Architecture — React Router–based dynamic navigation without reloads.
+ **Single Page Architecture — React Router–based dynamic navigation without reloads.
 
-🧱 .NET Core Web API Backend — provides authentication validation, token handling, and API services.
+** .NET Core Web API Backend — provides authentication validation, token handling, and API services.
 
-🧩 Clean Architecture — Controller → Service → Repository → Database layering for maintainability.
+Clean Architecture — Controller → Service → Repository → Database layering for maintainability.
 
 🎨 Modern Responsive UI — built using Tailwind CSS / Material UI.
 
@@ -27,14 +27,14 @@ API Integration: Google Drive API
 Deployment (optional): Azure App Service / Vercel
 
 ⚙️ Setup & Installation
-1️⃣ Clone Repository
+1️.Clone Repository
 git clone https://github.com/yourusername/google-spa-webapp.git
 cd google-spa-webapp
 
-2️⃣ Configure Google Cloud Credentials
+2️. Configure Google Cloud Credentials
 
 Visit Google Cloud Console
-.
+
 
 Create a new project → Enable Google Drive API.
 
@@ -46,7 +46,7 @@ http://localhost:3000 (Frontend)
 
 https://localhost:5001/signin-google (Backend)
 
-3️⃣ Backend Setup (.NET Core API)
+3️.Backend Setup (.NET Core API)
 
 Go to /backend folder.
 
@@ -70,14 +70,14 @@ cd backend
 dotnet restore
 dotnet run
 
-4️⃣ Frontend Setup (React SPA)
+** Frontend Setup (React SPA)
 cd frontend
 npm install
 npm start
 
 5️⃣ Access Application
 
-👉 Open: http://localhost:3000
+ Open: http://localhost:3000
 
 📂 Project Structure
 /google-spa-webapp
